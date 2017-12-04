@@ -5,6 +5,7 @@ const resolvers = require('./resolvers2');
 const typeDefs = `
     type Link {
         id: ID!
+        # 地址 这样graphiql就有注释了
         url: String!
         description: String!
         postedBy: User
